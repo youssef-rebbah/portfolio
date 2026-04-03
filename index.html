@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youssef Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="container">
+      <nav class="navbar card">
+        <div class="brand-wrap">
+          <button class="menu-btn mono mobile-toggle" id="mobileToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+          <a class="brand" href="#home">
+            <span class="brand-logo mono">&lt;/&gt;</span>
+            <span class="brand-name">James<span>.dev</span></span>
+          </a>
+        </div>
+
+        <ul class="nav-links">
+          <li><a class="active" href="#about">About me</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#my-services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#my-projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a class="social-link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <i class="devicon-linkedin-plain"></i>
+          </a>
+          <a class="social-link" href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <i class="devicon-github-original"></i>
+          </a>
+          <button class="theme-btn mono" id="themeToggle" aria-label="Toggle theme">☼</button>
+                </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero card section" id="home">
+        <div class="hero-visual">
+          <div class="hero-frame">
+            <div class="hexagon">
+              <img src="./images/image1.png" alt="Youssef portrait" />
+            </div>
+          </div>
+          <div class="badge mono">&lt;/&gt;</div>
+        </div>
+
+        <div class="hero-copy" id="about">
+          <p class="eyebrow mono">&lt;span&gt;Hey, I’m Youssef&lt;/span&gt;</p>
+          <h1 class="hero-title">
+           <span class="accent-block">{Full Stack}</span>Web &amp; App developer
+          </h1>
+          <p class="hero-text">
+              &lt;p&gt;
+            Motivated Full-Stack Developer with expertise in<span class="pink">  Front-End and Back-End development</span>... Passionate about building innovative solutions, collaborating within a team, and contributing to impactful projects.
+            &lt;/p&gt;
+          </p>
+
+          <div class="hero-tech">
+            <div class="tech-chip mono"><i class="devicon-javascript-plain"></i><span>JavaScript</span></div>
+            <div class="tech-chip mono"><i class="devicon-html5-plain"></i><span>HTML5</span></div>
+            <div class="tech-chip mono"><i class="devicon-css3-plain"></i><span>CSS3</span></div>
+            <div class="tech-chip mono"><i class="devicon-react-original"></i><span>React</span></div>
+            <div class="tech-chip mono"><i class="devicon-nodejs-plain"></i><span>NodeJS</span></div>
+            <span class="hero-more mono">...and more</span>
+          </div>
+
+          <a class="download-link" href="cv/Youssef-Rebbah-CV.pdf" download>
+            ⬇ <span>[ Download my CV ]</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="stats card grid-bg section reveal" id="resume">
+        <article class="stat">
+          <div class="stat-icon mono">⌘</div>
+          <h2 class="stat-number">5+</h2>
+          <p class="stat-label">Year Experience</p>
+        </article>
+        <article class="stat">
+          <div class="stat-icon mono">▣</div>
+          <h2 class="stat-number">20+</h2>
+          <p class="stat-label">Projects Completed</p>
+        </article>
+        <article class="stat">
+          <div class="stat-icon mono">♡</div>
+          <h2 class="stat-number">20+</h2>
+          <p class="stat-label">Satisfied Clients</p>
+        </article>
+        <article class="stat">
+          <div class="stat-icon mono">⟡</div>
+          <h2 class="stat-number">18+</h2>
+          <p class="stat-label">Awards Winner</p>
+        </article>
+      </section>
+
+      <section class="services-showcase section reveal" id="my-services">
+        <div class="services-showcase-card card">
+          <div class="services-showcase-header">
+            <p class="section-tag mono accent">• My Services</p>
+            <h2 class="services-showcase-title mono">
+              What I can <span class="muted-block">build</span><br />
+              and improve <span class="muted-block">for your website</span>
+            </h2>
+            <p class="services-showcase-text mono">
+              I create modern websites, manage databases, design clean UI/UX interfaces,
+              integrate APIs, build backend systems, and maintain websites with updates and bug fixes.
+            </p>
+          </div>
+      
+          <div class="services-showcase-grid">
+            <article class="service-box card reveal">
+              <div class="service-box-icon">
+                <i class="devicon-html5-plain colored"></i>
+              </div>
+              <h3 class="service-box-title mono">Web Development</h3>
+              <p class="service-box-desc mono">
+                Building responsive and modern websites using clean code and a fast, user-friendly structure.
+              </p>
+            </article>
+      
+            <article class="service-box card reveal">
+              <div class="service-box-icon">
+                <i class="devicon-mysql-plain colored"></i>
+              </div>
+              <h3 class="service-box-title mono">Database Creation & Management</h3>
+              <p class="service-box-desc mono">
+                Creating and managing secure databases for your website to keep data organized and efficient.
+              </p>
+            </article>
+      
+            <article class="service-box card reveal">
+              <div class="service-box-icon">
+                <i class="devicon-figma-plain colored"></i>
+              </div>
+              <h3 class="service-box-title mono">UI/UX & Figma Design</h3>
+              <p class="service-box-desc mono">
+                Designing clean and attractive user interfaces in Figma with a smooth user experience for your site.
+              </p>
+            </article>
+      
+            <article class="service-box card reveal">
+              <div class="service-box-icon">
+                <i class="devicon-fastapi-plain colored"></i>
+              </div>
+              <h3 class="service-box-title mono">API Integration</h3>
+              <p class="service-box-desc mono">
+                Connecting APIs to your website for payments, forms, dashboards, and external services.
+              </p>
+            </article>
+      
+            <article class="service-box card reveal">
+              <div class="service-box-icon">
+                <i class="devicon-nodejs-plain colored"></i>
+              </div>
+              <h3 class="service-box-title mono">Back-End Development</h3>
+              <p class="service-box-desc mono">
+                Developing the server side of your website with strong logic, authentication, and data handling.
+              </p>
+            </article>
+      
+            <article class="service-box card reveal">
+              <div class="service-box-icon">
+                <i class="devicon-git-plain colored"></i>
+              </div>
+              <h3 class="service-box-title mono">Maintenance & Updates</h3>
+              <p class="service-box-desc mono">
+                Fixing errors, updating features, improving performance, and keeping your website stable over time.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills-section card section reveal" id="skills">
+          <div class="skills-header">
+          <p class="service-tag mono accent">• Skills & Technologies</p>
+          <h2 class="skills-title mono">
+            Programming Languages &  <span class="muted-block">Frameworks I Master</span><br />
+            
+          </h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card card reveal" style="--level:95%"><div class="skill-logo"><i class="devicon-html5-plain colored"></i></div><h3 class="skill-name mono">HTML5</h3><div class="skill-bar"><div class="skill-progress"></div></div><p class="skill-percent">95%</p></article>
+          <article class="skill-card card reveal" style="--level:90%"><div class="skill-logo"><i class="devicon-css3-plain colored"></i></div><h3 class="skill-name mono">CSS3</h3><div class="skill-bar"><div class="skill-progress"></div></div><p class="skill-percent">90%</p></article>
+          <article class="skill-card card reveal" style="--level:85%"><div class="skill-logo"><i class="devicon-javascript-plain colored"></i></div><h3 class="skill-name mono">JavaScript</h3><div class="skill-bar"><div class="skill-progress"></div></div><p class="skill-percent">85%</p></article>
+          <article class="skill-card card reveal" style="--level:80%"><div class="skill-logo"><i class="devicon-react-original colored"></i></div><h3 class="skill-name mono">React</h3><div class="skill-bar"><div class="skill-progress"></div></div><p class="skill-percent">80%</p></article>
+          <article class="skill-card card reveal" style="--level:75%"><div class="skill-logo"><i class="devicon-nodejs-plain colored"></i></div><h3 class="skill-name mono">Node.js</h3><div class="skill-bar"><div class="skill-progress"></div></div><p class="skill-percent">75%</p></article>
+          <article class="skill-card card reveal" style="--level:70%"><div class="skill-logo"><i class="devicon-php-plain colored"></i></div><h3 class="skill-name mono">PHP</h3><div class="skill-bar"><div class="skill-progress"></div></div><p class="skill-percent">70%</p></article>
+          <article class="skill-card card reveal is-featured" style="--level:85%"><div class="skill-logo"><i class="devicon-laravel-plain colored"></i></div><h3 class="skill-name mono">Laravel</h3><div class="skill-bar"><div class="skill-progress"></div></div><p class="skill-percent">85%</p></article>
+          <article class="skill-card card reveal" style="--level:65%"><div class="skill-logo"><i class="devicon-python-plain colored"></i></div><h3 class="skill-name mono">Python</h3><div class="skill-bar"><div class="skill-progress"></div></div><p class="skill-percent">65%</p></article>
+          <article class="skill-card card reveal" style="--level:82%">
+            <div class="skill-logo"><i class="devicon-git-plain colored"></i></div>
+            <h3 class="skill-name mono">Git</h3>
+            <div class="skill-bar"><div class="skill-progress"></div></div>
+            <p class="skill-percent">82%</p>
+          </article>
+          <article class="skill-card card reveal" style="--level:72%">
+            <div class="skill-logo"><i class="devicon-java-plain colored"></i></div>
+            <h3 class="skill-name mono">Java</h3>
+            <div class="skill-bar"><div class="skill-progress"></div></div>
+            <p class="skill-percent">72%</p>
+          </article>
+          <article class="skill-card card reveal" style="--level:78%">
+            <div class="skill-logo"><i class="devicon-mysql-plain colored"></i></div>
+            <h3 class="skill-name mono">SQL</h3>
+            <div class="skill-bar"><div class="skill-progress"></div></div>
+            <p class="skill-percent">78%</p>
+          </article>
+          <article class="skill-card card reveal" style="--level:68%">
+            <div class="skill-logo"><i class="devicon-c-plain colored"></i></div>
+            <h3 class="skill-name mono">C</h3>
+            <div class="skill-bar"><div class="skill-progress"></div></div>
+            <p class="skill-percent">68%</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="projects-section card section reveal" id="my-projects">
+        <div class="projects-header">
+          <p class="service-tag mono accent">• My Projects</p>
+          <h2 class="projects-title mono">
+            Real projects <span class="muted-block">that I built</span><br />
+            <span class="muted-block">for different business needs</span>
+          </h2>
+        </div>
+      
+        <div class="projects-grid">
+          <article class="project-card card reveal">
+            <div class="project-thumb">
+              <img src="images/Project1.png" alt="Billboard reservation platform preview" />
+            </div>
+            <h3 class="project-title mono">Billboard Location & Reservation</h3>
+            <p class="project-desc">
+              Web platform for advertising panels with location display, reservation system,
+              and management dashboard for bookings and availability.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Laravel</span>
+              <span class="project-tag">MySQL</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+          </article>
+      
+          <article class="project-card card reveal">
+            <div class="project-thumb">
+              <img src="images/project2.png" alt="Restaurant management system preview" />
+            </div>
+            <h3 class="project-title mono">Restaurant Management System</h3>
+            <p class="project-desc">
+              Complete restaurant management solution with delivery tracking, orders,
+              menu handling, cashier flow, and stock management tools.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Laravel</span>
+              <span class="project-tag">PHP</span>
+              <span class="project-tag">MySQL</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+          </article>
+      
+          <article class="project-card card reveal">
+            <div class="project-thumb">
+              <img src="images/project3.png" alt="Gym management platform preview" />
+            </div>
+            <h3 class="project-title mono">Gym Management Platform</h3>
+            <p class="project-desc">
+              Gym system for subscriptions, admin dashboard, membership tracking,
+              notifications, and supplement store management.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Laravel</span>
+              <span class="project-tag">MySQL</span>
+              <span class="project-tag">React</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+          </article>
+      
+          <article class="project-card card reveal">
+            <div class="project-thumb">
+              <img src="images/project4.png" alt="E-commerce dashboard preview" />
+            </div>
+            <h3 class="project-title mono">E-commerce Dashboard</h3>
+            <p class="project-desc">
+              Dashboard for managing products, customers, orders, analytics,
+              and store activity with a modern responsive interface.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">MySQL</span>
+              <span class="project-tag">PHP</span>
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact card section reveal" id="contact">
+        <h2 class="contact-title mono accent">Let’s connect</h2>
+        <div class="contact-grid">
+          <form id="contactForm" method="post">
+            <div class="form-grid">
+              <input class="input" type="text" id="name" name="name" placeholder="Your name" required />
+              <input class="input" type="tel" id="phone" name="phone" placeholder="Phone" required />
+              <input class="input" type="email" id="email" name="email" placeholder="Email" required />
+              <input class="input" type="text" id="subject" name="subject" placeholder="Subject" required />
+            </div>
+          
+            <div class="textarea-wrap">
+              <textarea class="textarea" id="message" name="message" placeholder="Message" required></textarea>
+            </div>
+          
+            <button class="send-btn" type="submit">Send Message ↗</button>
+          </form>
+          
+          <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+          <div class="contact-side">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.32.56 3.57.56a1 1 0 011 1V20a1 1 0 01-1 1C10.3 21 3 13.7 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.19 2.45.56 3.57a1 1 0 01-.24 1.02l-2.2 2.2z"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div>
+                <h4>Phone Number</h4>
+                <p><a href="tel:+212762059829">07 62 05 98 29</a></p>
+              </div>
+            </div>
+          
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M4 6h16a1 1 0 011 1v10a1 1 0 01-1 1H4a1 1 0 01-1-1V7a1 1 0 011-1z"
+                    stroke="currentColor"
+                    stroke-width="1.8"/>
+                  <path d="M4 8l8 6 8-6"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <p><a href="mailto:rebbahyoussef74@gmail.com">rebbahyoussef74@gmail.com</a></p>              </div>
+            </div>
+          
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M12 21s-6-4.35-6-10a6 6 0 1112 0c0 5.65-6 10-6 10z"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"/>
+                  <circle cx="12" cy="11" r="2.5" stroke="currentColor" stroke-width="1.8"/>
+                </svg>
+              </div>
+              <div>
+                <h4>Address</h4>
+                <p>
+                  <a href="https://maps.google.com/?q=Casablanca,Morocco" target="_blank" rel="noreferrer">
+                    Casablanca, Morocco
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container">
+      <div class="footer-inner">
+        <a class="brand" href="#home">
+          <span class="brand-logo mono">&lt;/&gt;</span>
+          <span class="brand-name">Youssef<span>.dev</span></span>
+        </a>
+        <div class="footer-socials">
+          <a class="social-link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="devicon-linkedin-plain"></i></a>
+          <a class="social-link" href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="devicon-github-original"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <button class="scroll-top mono" id="scrollTop" aria-label="Scroll to top">↑</button>
+    <div class="toast" id="toast">Message sent successfully.</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js.js"></script>
+  </body>
+</html>
